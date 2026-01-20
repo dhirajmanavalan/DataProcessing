@@ -113,3 +113,54 @@ import numpy as np
 # ar3[0] = 10
 # print(ar3)
 # print(ar)
+
+# a = np.array([1, 2, 3])
+# b = np.array([4, 5, 6])
+
+# print(a + b)
+# print(a - b)
+# print(a / b)
+# print(b // a)
+# print(a * b)
+
+# arr = np.array([1,16,9,81])
+# print(np.sqrt(arr))
+
+# print(np.exp([1,2]))
+
+# a = [1,2,3,4,5,6]
+
+# print(a[-1:-4:-1])
+
+# a = np.array([1,2,3,4,5,6,7])
+
+# print(a[::2])
+# print(a[::-2])
+
+
+# arr = np.array([[1, 2, 3],
+#                 [4, 5, 6],
+#                 [7, 8, 9]])
+
+# print(arr[0:2, 0:4])
+
+# print(arr[1: , 1:3])
+
+# arr = np.array([1, 2, 3, 4, 5, 6])
+# index = [0, 2]
+# print(np.take(arr, index))
+
+# arr = np.array([[1, 2], [4, 5]])
+
+# for x in np.nditer(arr):
+#     print(x, end="  ")
+
+
+# arr = np.array([[1, 2, 3], [4, 5, 6]])
+
+# for indexx, x in np.ndenumerate(arr):
+#     print(indexx, x, end=" | ")
+
+# arr = np.array([[1,2],[3,4]])
+# print(arr.transpose())
+
